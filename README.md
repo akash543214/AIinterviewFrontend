@@ -1,6 +1,7 @@
-# React + TypeScript + Vite + Tailwind CSS + shadcn/ui Login Component
+# React + TypeScript + Vite + Tailwind CSS + shadcn
 
-Whatsapp web UI clone
+AI interview simulator
+
 ## 🚀 Features
 
 - **React 18** with TypeScript for type safety
@@ -61,35 +62,12 @@ Components follow shadcn/ui patterns with:
 
 ## 🚀 Customization
 
-### Colors
-Modify the CSS variables in `src/index.css` to customize the color scheme:
 
-```css
-:root {
-  --primary: 221.2 83.2% 53.3%;
-  --secondary: 210 40% 96%;
-  /* ... other variables */
-}
-```
 
 ### Components
 All UI components can be customized by modifying their respective files in `src/components/ui/`.
 
-## 📱 Responsive Design
 
-- Mobile-first design approach
-- Flexible layouts that adapt to screen sizes
-- Touch-friendly input fields
-- Optimized spacing for different devices
-
-
-## 🧪 Testing
-
-To add testing to your project:
-
-```bash
-npm install -D vitest @testing-library/react @testing-library/jest-dom
-```
 
 ## 📦 Building for Production
 
@@ -98,9 +76,3 @@ npm run build
 ```
 
 The built files will be in the `dist/` directory.
-
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
