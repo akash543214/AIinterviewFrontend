@@ -139,7 +139,7 @@ const AudioRecorder = ({
     <>
     <button
       onClick={handleClick}
-      className="group flex w-full items-center justify-center gap-3 rounded-xl bg-emerald-600/90 px-4 py-3 text-base font-semibold hover:bg-emerald-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400/60 active:translate-y-[1px]"
+      className="group flex w-full items-center justify-center gap-3 rounded-xl bg-[#22c55e] px-4 py-3 text-base text-black font-semibold hover:bg-emerald-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400/60 active:translate-y-[1px]"
     >
       {micOn ? <Mic className="h-5 w-5" /> : <MicOff className="h-5 w-5" />}
       {micOn ? "Stop Recording" : "Record Answer"}

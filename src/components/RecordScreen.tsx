@@ -7,7 +7,7 @@ import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import ReactMarkdown from "react-markdown";
 
-const QUESTION_TIME = 30;
+const QUESTION_TIME = 20;
 
 const QUESTIONS = [
   "Tell me about a challenging bug you fixed recently.",
@@ -57,7 +57,7 @@ export default function AIInterview() {
     }
 
     const id = setTimeout(() => setSeconds((s) => s - 1), 1000);
-    
+
     return () => clearTimeout(id);
   }, [isCounting, micOn, seconds]);
 
@@ -148,7 +148,7 @@ const progressPct = Math.round(((qIndex + 1) / QUESTIONS.length) * 100);
         {/* Right sidebar */}
         <aside className="rounded-2xl border border-white/10 bg-[#0f1216] p-5 sm:p-6 shadow-2xl shadow-black/40">
           <div className="text-xl font-semibold">AI Interviewer</div>
-          <div className="mt-5 rounded-xl border border-white/10 bg-black/30 p-4 text-white/80 leading-relaxed">
+          <div className="mt-5 rounded-xl border border-white/10 bg-[#082f49] p-4 text-white/80 leading-relaxed">
             <p>{Description}</p>
           </div>
 
